@@ -20,7 +20,7 @@ enum ELayout
   kMeterY = 176,
   kMeterFrames = 41
 };
-
+  
 XenTuner::XenTuner(IPlugInstanceInfo instanceInfo)
   :	IPLUG_CTOR(kNumParams, kNumPrograms, instanceInfo), mMeter(20)
 {
