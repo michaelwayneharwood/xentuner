@@ -5,6 +5,7 @@
     <ClCompile Include="..\..\WDL\IPlug\IPlugVST.cpp">
       <Filter>vst2</Filter>
     </ClCompile>
+    <ClCompile Include="tinyfiledialogs.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="XenTuner.h" />
@@ -12,6 +13,8 @@
     <ClInclude Include="..\..\WDL\IPlug\IPlugVST.h">
       <Filter>vst2</Filter>
     </ClInclude>
+    <ClInclude Include="scala-import.h" />
+    <ClInclude Include="tinyfiledialogs.h" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="XenTuner.rc" />

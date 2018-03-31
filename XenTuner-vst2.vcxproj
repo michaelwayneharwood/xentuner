@@ -236,11 +236,14 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="..\..\WDL\IPlug\IPlugVST.h" />
+    <ClInclude Include="scala-import.h" />
+    <ClInclude Include="tinyfiledialogs.h" />
     <ClInclude Include="XenTuner.h" />
     <ClInclude Include="resource.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\WDL\IPlug\IPlugVST.cpp" />
+    <ClCompile Include="tinyfiledialogs.c" />
     <ClCompile Include="XenTuner.cpp" />
   </ItemGroup>
   <ItemGroup>
